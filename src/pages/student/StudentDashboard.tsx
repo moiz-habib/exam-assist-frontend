@@ -9,7 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import LoadingSpinner from "@/components/shared/LoadingSpinner";
 import { ExamResult } from "@/types";
 import { studentApi } from "@/services/api";
-import { useState as useTabState } from "@/hooks/use-toast";
+import { useToast } from "@/hooks/use-toast";
 import { FileText } from "lucide-react";
 import StudentExamFeedback from "./StudentExamFeedback";
 
